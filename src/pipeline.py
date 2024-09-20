@@ -1,6 +1,6 @@
 import torch
 from PIL.Image import Image
-from diffusers import StableDiffusionXLPipeline
+from diffusers import StableDiffusionXLPipeline, AutoencoderTiny
 from pipelines.models import TextToImageRequest
 from torch import Generator
 from opttf import opttf_pipeline
